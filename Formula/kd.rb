@@ -1,4 +1,4 @@
-class KD < Formula
+class Kd < Formula
   desc 'Command line interface to Koding.'
   homepage 'https://koding.com'
 
