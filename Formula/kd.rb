@@ -3,13 +3,14 @@ class Kd < Formula
   homepage 'https://koding.com'
 
   url 'https://s3.amazonaws.com/koding-kd/production/kd.darwin_amd64.gz'
-  version '0.0.1'
+  version '0.0.2'
 
   devel do
-    url 'https://s3.amazonaws.com/koding-kd/development/kd.darwin_amd64.gz'
+    url 'https://s3.amazonaws.com/koding-kd/development/kd-0.1.177.darwin_amd64.gz'
   end
 
   def install
-    bin.install 'kd.darwin_amd64'
+    mv 'kd-0.1.177.darwin_amd64', 'kd'
+    bin.install 'kd'
   end
 end
