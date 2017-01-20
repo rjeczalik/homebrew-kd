@@ -7,7 +7,6 @@ class Kd < Formula
   version '0.0.1'
 
   def install
-    mv bin/kd.darwin_amd64 bin/kd
-    bin.install 'kd'
+	  bin.install 'kd.darwin_amd64'
   end
 end
