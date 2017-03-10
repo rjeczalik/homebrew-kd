@@ -6,12 +6,12 @@ class Kd < Formula
   version '0.0.2'
 
   devel do
-    url 'https://s3.amazonaws.com/koding-kd/development/kd-0.1.179.darwin_amd64.gz'
-    version '0.1.179'
+    url 'https://s3.amazonaws.com/koding-kd/development/kd-0.1.180.darwin_amd64.gz'
+    version '0.1.180'
   end
 
   def install
-    mv 'kd-0.1.179.darwin_amd64', 'kd'
+    mv 'kd-0.1.180.darwin_amd64', 'kd'
     bin.install 'kd'
   end
 end
